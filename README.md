@@ -55,3 +55,11 @@ file-loader： 将文件发送到输出文件夹，并返回（相对）URL url-
 ```
 npm install url-loader file-loader -D
 ```
+
+### webpack开发服务器
+
+webpack-dev-server 为你提供了一个具有 live reloading(实时重新加载) 功能的简单的 web server，并且可以实现反向代理，解决在开发过程中的跨域问题 安装 webpack-dev-server：
+
+```
+npm install webpack-dev-server -D
+```
